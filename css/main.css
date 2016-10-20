@@ -3,21 +3,25 @@
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
   line-height: 1.5;
   background-color: #dbd6cf;
   border: 3px solid #595652;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 h1 {
   font-family: Bevan, serif;
   color: #fff;
   text-align: center;
   margin: 0;
 }
+
 .nav {
   margin: auto;
   padding: 0;
@@ -25,6 +29,7 @@ h1 {
   line-height: 1.5;
   font-family: sans-serif;
 }
+
 nav a {
   display: inline-block;
   padding: .6em;
@@ -33,30 +38,37 @@ nav a {
   border-radius: 5px;
   color: #fff;
 }
+
 nav a:hover {
   background-color: #f33;
   color: #fff;
 }
+
 ul {
   text-align: center;
   list-style-type: none;
 }
+
 body {
   margin: 0;
   background-color: #79756f;
 }
+
 header {
   background-color: #79756f;
   margin: 0;
   padding: 0;
 }
+
 nav {
   background-color: #79756f;
 }
+
 nav ul {
   padding: 0;
   margin: 0;
 }
+
 nav li {
   display: inline-block;
   margin: .3em;
